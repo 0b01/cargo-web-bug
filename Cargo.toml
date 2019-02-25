@@ -1,0 +1,8 @@
+[package]
+name = "cargowebbug"
+version = "0.1.0"
+authors = ["Ricky Han <rickylqhan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rustpython_vm = {version = "*", git = "https://github.com/RustPython/RustPython.git"}
